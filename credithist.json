@@ -1,0 +1,20 @@
+{
+    "san":{
+        "jan":{
+            "credit_balance":15000,
+            "credit_paid":4000,
+            "credit_rolling":1000
+        },
+        "feb":{
+            "credit_balance":15000,
+            "credit_paid":4000,
+            "credit_rolling":1000
+    },
+    "march":{
+        "credit_balance":15000,
+        "credit_paid":4000,
+        "credit_rolling":1000
+}
+    }
+
+}    
