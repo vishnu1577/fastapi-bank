@@ -96,7 +96,7 @@ def get_userbalance(token:str=Depends(oauth_scheme)):
     with open ("userbalance.json","r") as userfile:
         userbalance=json.load(userfile)
     if not userbalance.get(token):
-        raise HTTPException(status_code=400,detail="user not avialable")
+        raise HTTPException(status_code=400,detail="user not available")
     return {
             "username":token,
             "current_balance":userbalance.get(token)['curr_balance']
